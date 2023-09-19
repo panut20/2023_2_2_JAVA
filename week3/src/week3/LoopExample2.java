@@ -1,0 +1,24 @@
+package week3;
+
+import java.util.Scanner;
+
+public class LoopExample2 {
+
+	public static void main(String[] args) {
+
+		int i;
+		int j=1;
+		System.out.print("구구단에서 출력하고 싶은 단을 입력하세요: ");
+		
+		Scanner a = new Scanner(System.in);
+		
+		i = a.nextInt();
+		
+		while(j<10) {
+			System.out.println(i+"x"+j+"="+i*j);
+			j++;
+		}
+
+	}
+
+}
