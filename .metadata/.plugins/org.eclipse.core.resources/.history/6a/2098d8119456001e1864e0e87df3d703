@@ -16,7 +16,7 @@ public class LeapYear {
 		else {
 			System.out.println(year+"년은 평년");
 		}
-		a.close();
+
 	}
 
 }
