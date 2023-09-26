@@ -12,7 +12,7 @@ public class SimpleMethod02 {
 		
 		if(b%2==0) {
 			System.out.println(b+"는 짝수입니다.");
-			}else if(a%2==1) {
+			}else if(b%2==1) {
 				System.out.println(b+"는 홀수입니다.");
 			}
 	}
